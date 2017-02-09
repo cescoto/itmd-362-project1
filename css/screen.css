@@ -17,6 +17,17 @@ button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line
 
 /* ===== BASE STYLES ===== */
 
+/* Using minor third modular scale 5:6 */
+
+html {
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 1.125em; /* 18px / 16px = 1.125em  */
+  line-height: 1.35em; /* 1.125em(18px) * 1.2(120%) = 1.35em(21.6px)  */
+  background: #fdf5c9;
+  color: #6b3e26;
+  padding: 0.9375em; /* 5:6 | x : 1.125em | x= 0.9375em */
+}
+
 /* Responsive Media */
 img,
 audio,
