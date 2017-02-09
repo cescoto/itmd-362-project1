@@ -42,6 +42,19 @@ video {
   max-width: 100%;
 }
 
+/* Form */
+label,
+input {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  margin: 0;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
