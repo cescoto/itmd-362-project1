@@ -59,4 +59,16 @@ input {
 
 /* ===== MODULAR STYLES ===== */
 
+form li {
+  padding: 0.9375em, 1.35em;
+}
+
 /* ===== STATE STYLES ===== */
+.hasjs input[type="submit"] {
+  position: absolute;
+  left: -100000px;
+}
+
+.hasjs input[type="submit"].active {
+  position: static;
+}
