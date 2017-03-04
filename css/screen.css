@@ -78,3 +78,14 @@ input {
     justify-content: flex-start;
   }
 }
+
+@media screen and (min-width: 910px ) {
+  html {
+    font-size:1.44em;
+    line-height: 1.728em;
+  }
+  h1 {
+    font-size: 2.074em;
+    line-height: 2.48em;
+  }
+}
