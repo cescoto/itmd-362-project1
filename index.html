@@ -22,9 +22,13 @@
       </figcaption>
     </figure>
     <ol>
+      <li id="input-name">
+        <label for="name">We just need a few details such as:</label>
+        <input type="text" name="text" id="name" placeholder="Your name here" pattern="\S*.">
+      </li>
       <li id="input-email">
-        <label for="email">All we need is your email:</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+        <label for="email">And one more thing:</label>
+        <input type="email" name="email" id="email" placeholder="What's your email?" pattern="^.+@.+$" />
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Give me dog facts!" />
