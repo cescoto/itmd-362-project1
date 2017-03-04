@@ -23,15 +23,19 @@ html {
   font-family: Georgia, Times, Times New Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em  */
   line-height: 1.35em; /* 1.125em(18px) * 1.2(120%) = 1.35em(21.6px)  */
-  background: #fdf5c9;
-  color: #6b3e26;
+  background: #ffeb3b;
+  color: #2196f3;
   padding: 0.9375em; /* 5:6 | x : 1.125em | x= 0.9375em */
 }
 
 h1 {
-  font-size: 1.44em; /* 26px / 18px = 1.44em */
-  line-height: 1.73em; /* 1.44em * 1.2(120%) = 1.73em */
-  padding: 1.2em, 1.73em; /* 5:6 | x : 1.44em | x= 1.2em */
+  font-size: 1.728em; /* 31.104px / 18px = 1.728em */
+  line-height: 2.073em; /* 1.728em * 1.2(120%) = 2.073em */
+  padding: 1.2em, 1.44em; /* 5:6 | x : 1.728em | x= 1.44em */
+}
+
+p {
+  padding-bottom: 0.9375em;
 }
 
 /* Responsive Media */
@@ -47,21 +51,15 @@ label,
 input {
   box-sizing: border-box;
   width: 100%;
-  display: block;
+  display: inline-block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  border: 0;
-  margin: 0;
 }
 
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
-
-form li {
-  padding: 0.9375em, 1.35em;
-}
 
 /* ===== STATE STYLES ===== */
 .hasjs input[type="submit"] {
@@ -71,4 +69,12 @@ form li {
 
 .hasjs input[type="submit"].active {
   position: static;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 560px ) {
+  label,
+  input {
+    justify-content: flex-start;
+  }
 }
