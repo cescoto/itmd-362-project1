@@ -31,7 +31,7 @@ html {
 h1 {
   font-size: 1.728em; /* 31.104px / 18px = 1.728em */
   line-height: 2.073em; /* 1.728em * 1.2(120%) = 2.073em */
-  padding: 1.2em, 1.44em; /* 5:6 | x : 1.728em | x= 1.44em */
+  padding: 1.2em 1.44em; /* 5:6 | x : 1.728em | x= 1.44em */
 }
 
 p {
